@@ -1,0 +1,422 @@
+/*menu*/
+
+
+.navbar
+{
+	margin-bottom: none;
+	position: relative;
+}
+
+nav
+{
+	padding: 20px 0;
+	background-image: linear-gradient(217deg, rgb(32, 48, 60), rgb(32, 48, 60));
+	border: none;
+}
+
+#nom
+{
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(28, 28, 28, .3);
+	font-size: 40px;
+	color: white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+#lienmenu
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#lienmenu:hover
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #cd486b;
+	text-transform: uppercase;
+}
+
+
+
+.subtitle-section
+{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 100px;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+/* SECTION 1*/
+
+#section-1
+{
+	width: 100%;
+	background-image: linear-gradient(217deg, rgba(28, 28, 28, .7), rgba(28, 28, 28, .5) 70.71%),
+	 url('https://lh3.googleusercontent.com/AwcJRbL_9X9tt1GRr2OKdeV5HjL_uRvu4830SqqkBK-DzUroLJ7QsQ9199pMP9br4FrCnViQr4UvY33XtEvr7RLSgDZSPuZt_02QHaB-owocsrWyLePGs3ohej8wocDuwu3Qs1UlUw=w2400');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -20px;
+}
+
+.nomdanslapage
+{
+	color : #FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 800;
+	font-size: 70px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+
+.vert
+{
+	color: #00D646;
+	font-size: 110px;
+}
+
+/* SECTION 2*/
+
+#section-2
+{
+	background-color: #2b3137;
+	padding: 5% 0;
+}
+
+#text-media
+{
+	text-align: center;
+}
+#letstalk
+{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 3px;
+	font-size: 2em;
+}
+
+#lesmedias
+{
+	text-align: center;
+}
+#lesmedias i
+{
+	color: white;
+	font-size: 30px;
+	margin-right: 3%;
+}
+#media1:hover
+{
+	color: #3b5998;
+}
+
+#media2:hover
+{
+	color: #cd486b;
+}
+
+#media3:hover
+{
+	color: #24292e;
+}
+
+
+/*section-3*/
+
+
+.section-title
+{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+}
+
+.portfolio-cart
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.port-cart
+{
+	background-color: dodgerblue;
+	height: 40vh;
+	width: 100%;
+}
+
+.port-cart:hover
+{
+	background-color: dodgerblue;
+	height: 40vh;
+	width: 100%;
+}
+
+.textcart
+{
+	position: absolute;
+	bottom: 0;
+	width: 80%;
+	color: white;
+	padding: 0 10px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.elmt-title
+{
+	position: absolute;
+	bottom: 3px;
+}
+
+
+.elmt-title
+{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 200;
+}
+
+#port1
+{
+	background-image: url('designer.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#port2
+{
+	background-image: url('look.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#port3
+{
+	background-image: url('observe.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+/*section 4*/
+
+
+#footer
+{
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #2b3137;
+}
+
+
+#footer-title
+{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/*portfolio*/
+
+#portfolio
+{
+	background-color:  rgb(32, 48, 60);
+	padding: 10% 15%;
+	background-image: linear-gradient(rgba(32, 48, 60, .8), rgba(32, 48, 60, .8)), url('https://lh3.googleusercontent.com/pcvqHmdRVL-p0QrJbisFJ46an_OA3jb_mRclZmLJDa5_oS5O2JPJ6KulXAZsj5S4eP73_YaOSR4bcEQOrDgmvOZVTwMZ3ol_RzlcK63ReT66GFJHHwA1HBL9gj8aFOhk2gaY3BnWrQ=w2400');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.elmt
+{
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#elmt-1
+{
+	background-image: linear-gradient(rgba(32, 48, 60, 0), rgba(32, 48, 60, .5)), url('https://lh3.googleusercontent.com/ZT78ikXoYXdu-MDn0XDJHJw2K6fNrHa53SAjPaxUjL71_ppYZ2eADjdk8aFtj22EnJchWukYS30Sh0MucZ0vywWHwa8-4TWvLnj3niKAx_5Ut7tAwtXJghRxO6LZtzaug5I1H9b8aQ=w2400');
+}
+
+#elmt-1:hover
+{
+	background-image: linear-gradient(rgba(32, 48, 60, .7), rgba(32, 48, 60, .6)), url('https://lh3.googleusercontent.com/ZT78ikXoYXdu-MDn0XDJHJw2K6fNrHa53SAjPaxUjL71_ppYZ2eADjdk8aFtj22EnJchWukYS30Sh0MucZ0vywWHwa8-4TWvLnj3niKAx_5Ut7tAwtXJghRxO6LZtzaug5I1H9b8aQ=w2400');
+}
+
+#elmt-2
+{
+	background-image: linear-gradient(rgba(32, 48, 60, 0), rgba(32, 48, 60, .5)), url('https://lh3.googleusercontent.com/cTjTeukUUpg7qkDQNwy6VJwgjjbeMIFRuTWhgJwYn7siJeoBMlrFTUQKkn3cornSZYtt3UiL9mpWyWZRoycThaRhKgrjG5IecUrdXU8h4MivjOTZ6upWhXb-VoyS5SG2bSfDrLRM8A=w2400');
+}
+
+#elmt-2:hover
+{
+	background-image: linear-gradient(rgba(32, 48, 60, .7), rgba(32, 48, 60, .6)), url('https://lh3.googleusercontent.com/cTjTeukUUpg7qkDQNwy6VJwgjjbeMIFRuTWhgJwYn7siJeoBMlrFTUQKkn3cornSZYtt3UiL9mpWyWZRoycThaRhKgrjG5IecUrdXU8h4MivjOTZ6upWhXb-VoyS5SG2bSfDrLRM8A=w2400');
+}
+
+#elmt-3
+{
+	background-image: linear-gradient(rgba(32, 48, 60, 0), rgba(32, 48, 60, .5)), url('https://lh3.googleusercontent.com/q8qeesCv4Avmy1AQNuDGECkoTyv2xA8NkAnhDe4sWpXt3DQdgd_VB9kHtowBLswillvKRPg4OAd6eadYVh5lWnZxWYmDJzeLJwPMWajR2OtXmaDGZNNJrcnq_n86OCYOvoO7P6HR_g=w2400');
+}
+
+#elmt-3:hover
+{
+	background-image: linear-gradient(rgba(32, 48, 60, .7), rgba(32, 48, 60, .6)), url('https://lh3.googleusercontent.com/q8qeesCv4Avmy1AQNuDGECkoTyv2xA8NkAnhDe4sWpXt3DQdgd_VB9kHtowBLswillvKRPg4OAd6eadYVh5lWnZxWYmDJzeLJwPMWajR2OtXmaDGZNNJrcnq_n86OCYOvoO7P6HR_g=w2400');
+}
+
+
+
+
+#section-4
+{
+	padding: 15% 15%;
+}
+
+#experiences
+{
+	padding: 10% 0;
+}
+
+#mesexp
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #BEC7D5;
+	margin-bottom: 5%;
+	letter-spacing: 0.05em;
+}
+
+.nom-exp
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+
+}
+
+.progression
+{
+	padding-bottom: 10px;
+	padding-top: 9px;
+}
+.barre-de-prog
+{
+	background-color: #cd486b;
+	height: 1vh;
+}
+
+.prog-1
+{
+	width: 70%;
+}
+
+.prog-2
+{
+	width: 50%;
+}
+
+.prog-3
+{
+	width: 20%;
+}
+
+.prog-4
+{
+	width: 30%;
+}
+
+.pourcentage
+{
+	font-size: 20px;
+}
+
+/*contact*/
+
+#section-5
+{
+	padding: 10% 0;
+}
+
+#fiche-contact
+{
+	background-color: rgba(51, 59, 80, 1);
+	margin: 10% 0;
+	padding: 15% 5%;
+}
+
+.contact-icones
+{
+	text-align: center;
+}
+
+
+#lienversmail
+{
+	font-size: 30px;
+	color: white;
+}
+
+#lienversmail:hover
+{
+	font-size: 30px;
+	color: #cd486b;
+}
+
+
+#title-contact
+{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 4px;
+	color: white;
+}
+
+#text-contact
+{
+	margin-top: 10%;
+	color: white;
+	text-align: left;
+	line-height: 30px;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#mediasfooter
+{
+	text-align: center;
+	margin-top: 5%;
+}
+
+#mediasfooter i
+{
+	font-size: 30px;
+	color: white;
+	margin-right: 8%;
+}
+
+
+
+
+
+
+
