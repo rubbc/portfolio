@@ -416,6 +416,62 @@ nav
 
 
 
+/*menu mobile*/
+
+@media only screen and (max-width:800px)
+{
+
+	.navbar
+	{
+		margin-bottom: none;
+		position: relative;
+	}
+
+	nav
+	{
+		display: none;
+	}
+
+	#nom
+	{
+		font-family: 'Open Sans', sans-serif;
+		color: rgba(28, 28, 28, .3);
+		font-size: 40px;
+		color: white;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+	#lienmenu
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: white;
+		text-transform: uppercase;
+	}
+
+	#lienmenu:hover
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #cd486b;
+		text-transform: uppercase;
+	}
+
+
+
+	.subtitle-section
+	{
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		font-size: 20px;
+		margin-bottom: 100px;
+		color: white;
+		font-weight: 300;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+}
+
 
 
 
