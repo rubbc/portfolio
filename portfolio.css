@@ -358,7 +358,8 @@ nav
 
 #fiche-contact
 {
-	background-color: rgba(51, 59, 80, 1);
+	/*background-color: rgba(51, 59, 80, 1);*/
+	background-color: dodgerblue;
 	margin: 10% 0;
 	padding: 15% 5%;
 }
