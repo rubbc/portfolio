@@ -358,8 +358,7 @@ nav
 
 #fiche-contact
 {
-	/*background-color: rgba(51, 59, 80, 1);*/
-	background-color: dodgerblue;
+	background-color: rgba(51, 59, 80, 1);
 	margin: 10% 0;
 	padding: 15% 5%;
 }
@@ -414,6 +413,8 @@ nav
 	color: white;
 	margin-right: 8%;
 }
+
+
 
 
 
