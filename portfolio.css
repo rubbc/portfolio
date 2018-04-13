@@ -416,6 +416,21 @@ nav
 
 
 
+@media only screen and (min-width: 768px)
+{
+	#section-5
+	{
+		padding: 10% 0;
+	}
+
+	#fiche-contact
+	{
+		background-color: rgba(51, 59, 80, 1);
+		margin: 0 0;
+		padding: 15% 5%;
+	}
+}
+
 
 
 
